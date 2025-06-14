@@ -6,12 +6,14 @@ A simple RESTful API for managing user profiles using **FastAPI** and **JSON fil
 
 ## 📂 Project Structure
 
-├── main.py # FastAPI entrypoint
+```
+├── main.py                  # FastAPI entrypoint
 ├── services/
-│ └── userService.py # Business logic layer for user operations
+│   └── userService.py       # Business logic for user operations
 ├── schemas/
-│ └── user.py # Pydantic models (User, UserCreate)
+│   └── user.py              # Pydantic models (User, UserCreate)
 ├── utils/
-│ └── fileHandler.py # Load/save JSON user data
-├── users.json # JSON file used as a database
+│   └── fileHandler.py       # JSON file load/save helpers
+├── users.json               # Simulated database (JSON file)
 └── README.md
+```
