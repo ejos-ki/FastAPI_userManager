@@ -4,6 +4,7 @@ A simple RESTful API for managing user profiles using **FastAPI** and **JSON fil
 
 ---
 
+
 ### 📂 Project Structure
 
 ```
@@ -17,6 +18,8 @@ A simple RESTful API for managing user profiles using **FastAPI** and **JSON fil
 ├── users.json               # Simulated database (JSON file)
 └── README.md
 ```
+
+
 
 ### 📂 Project Structure
 #### ✅Requirements
@@ -32,6 +35,8 @@ pip install fastapi uvicorn
 ```bash
 uvicorn main:app --reload
 ```
+
+
 
 
 ### 🔐 Custom Validation Highlight
@@ -55,6 +60,9 @@ Response
   "Users": [...]
 }
 ```
+
+
+
 ### ✅ Features
 - JSON-based persistence (no database setup needed)
 - Custom, readable validation responses
@@ -63,8 +71,12 @@ Response
 - Error handling with clear HTTP statuses
 - Ready for extension (JWT, role-based auth, etc.)
 
+
+
 ### 🔐 👨‍👷 Author
 Jeo D. Latorre | Developer
+
+
 
 ### 🔐 📘 Future Enhancements
 - JWT authentication
