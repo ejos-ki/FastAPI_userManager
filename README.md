@@ -43,9 +43,18 @@ Example:
 
 This improves API clarity and user-friendliness.
 
-### 🔐 Custom Validation Highlight
-
-
+### 🛠 API Endpoints
+#### 📄 Get All Users
+```
+GET /users
+```
+Response
+```json
+{
+  "Action": "All users retrieved successfully",
+  "Users": [...]
+}
+```
 ### ✅ Features
 - JSON-based persistence (no database setup needed)
 - Custom, readable validation responses
@@ -55,8 +64,7 @@ This improves API clarity and user-friendliness.
 - Ready for extension (JWT, role-based auth, etc.)
 
 ### 🔐 👨‍👷 Author
-Jeo D. Latorre
-Developer
+Jeo D. Latorre | Developer
 
 ### 🔐 📘 Future Enhancements
 - JWT authentication
