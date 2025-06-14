@@ -17,3 +17,9 @@ A simple RESTful API for managing user profiles using **FastAPI** and **JSON fil
 ├── users.json               # Simulated database (JSON file)
 └── README.md
 ```
+
+### 📂 Project Structure
+#### ✅Requirements
+- Python 3.10+
+- FastAPI
+- Uvicorn
