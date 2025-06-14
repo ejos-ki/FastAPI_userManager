@@ -43,3 +43,26 @@ Example:
 
 This improves API clarity and user-friendliness.
 
+### 🔐 Custom Validation Highlight
+
+
+### ✅ Features
+- JSON-based persistence (no database setup needed)
+- Custom, readable validation responses
+- Duplicate email checking
+- Case formatting for names and roles
+- Error handling with clear HTTP statuses
+- Ready for extension (JWT, role-based auth, etc.)
+
+### 🔐 👨‍👷 Author
+Jeo D. Latorre
+Developer
+
+### 🔐 📘 Future Enhancements
+- JWT authentication
+- SQLite backend with SQLAlchemy
+- Pagination & filtering
+- OpenAPI schema annotations
+
+### 📬 Questions?
+Feel free to open an issue or reach out if you want help improving or extending this project.
