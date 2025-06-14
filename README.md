@@ -32,3 +32,13 @@ pip install fastapi uvicorn
 ```bash
 uvicorn main:app --reload
 ```
+
+
+### 🔐 Custom Validation Highlight
+Instead of relying solely on FastAPI’s built-in type validation, this project uses a custom validate_id function for cleaner and more readable error messages.
+
+Example:
+- FastAPI: 422 Unprocessable Entity
+- Custom: 400 Bad Request — Invalid ID 'abc': Not a number
+This improves API clarity and user-friendliness.
+
