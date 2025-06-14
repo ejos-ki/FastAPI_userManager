@@ -40,5 +40,6 @@ Instead of relying solely on FastAPI’s built-in type validation, this project 
 Example:
 - FastAPI: 422 Unprocessable Entity
 - Custom: 400 Bad Request — Invalid ID 'abc': Not a number
+
 This improves API clarity and user-friendliness.
 
