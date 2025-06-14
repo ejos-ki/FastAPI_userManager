@@ -23,3 +23,12 @@ A simple RESTful API for managing user profiles using **FastAPI** and **JSON fil
 - Python 3.10+
 - FastAPI
 - Uvicorn
+
+#### ✅Requirements
+```bash
+pip install fastapi uvicorn
+```
+#### ▶️ Run the API Server
+```bash
+uvicorn main:app --reload
+```
