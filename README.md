@@ -4,7 +4,7 @@ A simple RESTful API for managing user profiles using **FastAPI** and **JSON fil
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```
 ├── main.py                  # FastAPI entrypoint
