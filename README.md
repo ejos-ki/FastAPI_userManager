@@ -61,6 +61,92 @@ Response
 }
 ```
 
+#### 🔍 Get User by ID
+```
+GET /users/{id}
+```
+Success
+```json
+{
+  "Action": "Requested User ID of 1 found",
+  "User": {...}
+}
+```
+Error
+```json
+{
+  "detail": "Requested User ID 99 not found"
+}
+```
+
+#### ➕ Create New User
+```
+POST /users
+```
+Body
+```json
+{
+  "firstName": "John",
+  "middleName": "M",
+  "lastName": "Doe",
+  "suffix": null,
+  "email": "john@example.com",
+  "role": "Admin"
+}
+```
+Resonse
+```json
+{
+  "Action": "User ID 1 created successfully",
+  "User": {...}
+}
+```
+Duplicate Email Error
+```json
+{
+  "detail": "Email 'john@example.com' is already in use."
+}
+```
+
+#### ✏️ Update User
+Body
+```json
+{
+  "firstName": "Johnny",
+  "role": "User"
+}
+```
+Resonse
+```json
+{
+  "Action": "User ID 1 updated successfully",
+  "User": {...}
+}
+```
+Invalid Role
+```json
+{
+  "detail": "Role must be either 'Admin' or 'User'"
+}
+```
+
+#### ❌ Delete User
+```
+DELETE /users/{id}
+```
+Success
+```json
+{
+  "Action": "User ID 1 deleted successfully"
+}
+```
+Not Found
+```json
+{
+  "detail": "Requested User ID 99 to delete not found"
+}
+```
+
 
 
 ### ✅ Features
